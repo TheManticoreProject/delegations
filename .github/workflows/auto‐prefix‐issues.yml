@@ -3,8 +3,6 @@ name: Auto‑prefix & Label Issues
 on:
   issues:
     types: [opened, edited]
-  schedule:
-    - cron: '0 0 * * *'    # every day at midnight UTC
 
 jobs:
   prefix_and_label:
